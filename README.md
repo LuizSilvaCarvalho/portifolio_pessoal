@@ -38,7 +38,7 @@ Tecnologias: Exibição das tecnologias que domino.
 
 Você pode acessar a versão online do portfólio para explorar todas as funcionalidades:
 
-🔗 Acesse o Portfólio Online ()
+🔗 Acesse o Portfólio Online (https://luizsilvacarvalho.github.io/portifolio_pessoal/)
 
 ## 👤 Autor
 
