@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luiz Silva Carvalho</title>
+    <meta
+      name="description"
+      content="Portfólio do desenvolvedor Full stack Luiz Silva Carvalho para compartilhar projetos e habilidades desenvolvidas."
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="header__nav">
+        <ul class="menu menu--principal">
+          <li class="menu__item">
+            <a class="menu__link active" href="#home">
+              <span class="menu__text">Home</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#projetos">
+              <span class="menu__text">Projetos</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre">
+              <span class="menu__text">Sobre</span>
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contato">
+              <span class="menu__text">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__brand">
+        <a href="#home">
+          <img
+            class="brand__logo"
+            src="assets/images/logo-lc.png"
+            alt="Logo LC"
+          />
+        </a>
+      </div>
+      <div class="header__toggle">
+        <i id="toggleTheme" class="bi bi-sun"></i>
+      </div>
+    </header>
+
+    <!-- Seção Mobile -->
+    <nav class="nav--mobile">
+      <ul class="menu menu--mobile">
+        <li class="menu__item">
+          <a class="menu__link active" href="#home">
+            <i class="menu__icon bi bi-house-door"></i>
+            <span class="menu__text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#projetos">
+            <i class="menu__icon bi bi-window-stack"></i>
+            <span class="menu__text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#sobre">
+            <i class="menu__icon bi bi-person"></i>
+            <span class="menu__text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#contato">
+            <i class="menu__icon bi bi-envelope"></i>
+            <span class="menu__text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Seção Main -->
+
+    <main id="home">
+      <section class="hero">
+        <div class="fingerprint"></div>
+        <div class="circle"></div>
+        <div class="hero__container">
+          <div class="hero__wrapper">
+            <h5>Welcome</h5>
+            <h1>Portifólio</h1>
+            <div class="hero__name">
+              <p><span>de</span> Luiz</p>
+            </div>
+          </div>
+          <div class="hero__overlay"></div>
+        </div>
+        <spline-viewer
+          class="robot__spline"
+          url="https://prod.spline.design/fP0LH65i8bXQDQjZ/scene.splinecode"
+        ></spline-viewer>
+      </section>
+
+      <!-- Seção Technologies -->
+      <section class="technologies">
+        <div class="technologies__container">
+          <!-- <div class="technologies__space"></div> -->
+          <div class="technologies__brands">
+            <h2 class="tecnologies__h2">Conhecimento nas Tecnologias</h2>
+            <div class="technologies__brands__grid">
+              <div class="technologies__logo">
+                <img
+                  src="assets/images/technologies/python.png"
+                  alt="Logo python"
+                />
+              </div>
+              <div class="technologies__logo">
+                <img
+                  src="assets/images/technologies/html.png"
+                  alt="Logo Html"
+                />
+              </div>
+              <div class="technologies__logo">
+                <img src="assets/images/technologies/css.png" alt="Logo css" />
+              </div>
+              <div class="technologies__logo">
+                <img
+                  src="assets/images/technologies/javascript.png"
+                  alt="Logo JavaScript"
+                />
+              </div>
+            </div>
+
+            <div class="technologies__brands__grid2">
+              <div class="technologies__logo">
+                <img
+                  src="assets/images/technologies/tailwind.png"
+                  alt="Logo Tailwind"
+                />
+              </div>
+              <div class="technologies__logo">
+                <img
+                  src="assets/images/technologies/react.png"
+                  alt="Logo React JS"
+                />
+              </div>
+              <div class="technologies__logo">
+                <img src="assets/images/technologies/git2.png" alt="Logo Git" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- div Projects -->
+    <div class="projects-carousel" id="projetos">
+      <div class="projects-content" id="projectsTrack">
+        <span>Projetos</span>
+        <span class="outline">Projetos</span>
+        <span>Projetos</span>
+        <span class="outline">Projetos</span>
+        <span>Projetos</span>
+        <span class="outline">Projetos</span>
+        <span>Projetos</span>
+        <span class="outline">Projetos</span>
+      </div>
+    </div>
+
+    <!-- Seção Projects -->
+    <section class="projects">
+      <div class="projects__container">
+        <div class="project__card">
+          <div class="img-port">
+            <a
+              href="https://luizsilvacarvalho.github.io/agenciadeviagem/index.html"
+              target="_blank"
+              alt="Link projeto agência de viagens"
+            >
+              <div class="overlay">
+                Agência de viagens
+                <p class="click-to-view">Clique para ver</p>
+              </div>
+            </a>
+          </div>
+          <div class="btn">
+            <a
+              href="https://github.com/LuizSilvaCarvalho/agenciadeviagem"
+              target="_blank"
+              alt="Link repositório github"
+              ><i class="fab fa-github"></i> Repositório GitHub</a
+            >
+          </div>
+          <p class="projects-description">Tecnologias utilizadas</p>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/html.png"
+                alt="Logo HTML"
+              />
+            </li>
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/css.png"
+                alt="Logo Css"
+              />
+            </li>
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/javascript.png"
+                alt="Logo JavaScript"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="project__card">
+          <div class="img-port2">
+            <a
+              href="https://luizsilvacarvalho.github.io/projeto_discord/"
+              target="_blank"
+              alt="Link Réplica Home page Site Discord"
+            >
+              <div class="overlay">
+                Réplica Home page Site Discord
+                <p class="click-to-view">Clique para ver</p>
+              </div>
+            </a>
+          </div>
+          <div class="btn">
+            <a
+              href="https://github.com/LuizSilvaCarvalho/projeto_discord"
+              target="_blank"
+              alt="Link repositório github"
+              ><i class="fab fa-github"></i> Repositório GitHub</a
+            >
+          </div>
+          <p class="projects-description">Tecnologias utilizadas</p>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/html.png"
+                alt="Logo Html"
+              />
+            </li>
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/css.png"
+                alt="Logo Css"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <div class="project__card">
+          <div class="img-port3">
+            <a
+              href="https://luizsilvacarvalho.github.io/projeto-pizzariahash/"
+              target="_blank"
+              alt="Link projeto pizzaria hash"
+            >
+              <div class="overlay">
+                Pizzaria Hash
+                <p class="click-to-view">Clique para ver</p>
+              </div>
+            </a>
+          </div>
+          <div class="btn">
+            <a
+              href="https://github.com/LuizSilvaCarvalho/projeto-pizzariahash"
+              target="_blank"
+              alt="Link repositório github"
+              ><i class="fab fa-github"></i> Repositório GitHub</a
+            >
+          </div>
+          <p class="projects-description">Tecnologias utilizadas</p>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/html.png"
+                alt="Logo Html"
+              />
+            </li>
+            <li class="technologies__item">
+              <img
+                class="technologies__logo2"
+                src="assets/images/technologies/css.png"
+                alt="Logo Css"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre__text" class="about__image">
+      <p>Conheça mais sobre Luiz Silva Carvalho</p>
+    </section>
+
+    <section id="sobre" class="about">
+      <div class="about__content1">
+        <div class="about__description">
+          <h2>Sobre mim</h2>
+          <p>
+            Olá sou Luiz Fernando Silva Carvalho. Atualmente, atuo como estagiário em Cybersegurança no Santander, apoiando no entendimento de políticas globais de segurança, abertura de demandas via Service Now e no desenvolvimento de documentações sobre compliance, sempre em colaboração com o time. Antes disso, estagiei na Compass UOL com foco em RPA, utilizando Automation Anywhere e BotCity para criar automações eficientes e escaláveis que ajudaram a otimizar processos internos. Concluí o bootcamp Front-end da DIO em parceria com o Santander, reforçando minha base em desenvolvimento front-end e boas práticas de código. Também possuo experiência em Python, javascript, conhecimentos em linguagem Full Stack, além de interesse constante em expandir minhas habilidades técnicas. Minha trajetória profissional inclui passagens por empresas como LG, Nokia, Positivo Informática e TIM, onde desenvolvi resiliência, adaptabilidade e foco em resultados. Essas experiências me deram uma visão abrangente sobre tecnologia e negócios. Busco crescer como desenvolvedor Full Stack, aprimorando minhas habilidades em front-end e back-end, ao mesmo tempo em que me desenvolvo na área de Cybersegurança. Meu objetivo é dominar ambas as áreas, unindo criação de soluções eficientes com segurança robusta, para entregar projetos completos e confiáveis.
+          </p>
+          <div class="about__icons">
+            <i class="bi bi-translate"></i>
+            <span>Inglês: Intermediário | Espanhol: Intermediário</span>
+          </div>
+          <div class="description__buttons">
+            <a
+              href="https://www.linkedin.com/in/luiz-fernando-silva-carvalho/"
+              target="_blank"
+            >
+              <button class="btn btn--primary">
+                <span>Conecte-se Comigo</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>
+            </a>
+            <a href="assets/cv-Luiz.pdf" download="Curriculo-Luiz-Fernando">
+              <button class="btn--cv">
+                <span>Download Currículo</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__content2">
+      <div class="col1">
+        <div class="row1">
+          <h3>Formação</h3>
+          <h4>Análise e desenvolvimento de sistemas</h4>
+          <span>Ago 2023 - Atualmente</span>
+          <div class="about__icons">
+            <i class="bi bi-bank"></i>
+            <span>Centro Universitário Internacional - UNINTER</span>
+          </div>
+          <!-- <div class="about__icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Pós-graduação Lato Sensu - Especialização</span>
+          </div> -->
+        </div>
+        <div class="row2">
+          <h3>Experiências</h3>
+          <h4>Estagiário Cybersegurança</h4>
+          <span>Santander Brasil. Ago 2025 - Atual</span>
+          <span>Apoio na análise e entendimento de políticas globais de segurança, garantindo a correta aplicação nas ferramentas utilizadas pela organização. Abertura e acompanhamento de demandas via Service Now para times executores, com evolução gradual da complexidade conforme o domínio técnico aumenta. Suporte à equipe na elaboração de documentações sobre compliance das ferramentas de segurança, assegurando alinhamento com padrões internos e globais.
+          </span>
+
+          <h4>Estagiário RPA</h4>
+          <span>Compass UOL. Nov 2024 - Abr 2025</span>
+          <span>Desenvolvimento de bots com Automation Anywhere, Bot city e Python. Automatização de processos repetitivos para ganho de produtividade. Registro e tratamento de exceções, logs e evidências de execução. Colaboração com time de tecnologia para integração de sistemas. Integração de conceitos e metodologia Agile/Scrum em projetos de desenvolvimento, colaborando em equipes multidisciplinares.
+          </span>
+        </div>
+      </div>
+
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion__item active">
+            <button class="accordion__header start">
+              <span>Versionamento de Código com Git e GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Jun 2025. 2h.
+              </p>
+              <p>
+                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
+                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
+                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
+                com o repositório remoto. 
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header">
+              <span>Contribuindo em um Projeto Open Source no GitHub</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body">
+              <p>
+                Digital Innovation One. Jun 2025. 1h.
+              </p>
+              <p>
+                Lab prático sobre colaboração em projetos de código aberto.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Criação de Sites com HTML5 e CSS3</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Udemy. Nov 2024. 7h30.
+              </p>
+              <p>
+                Criação de sites estáticos, estilização com CSS3, aplicação de layouts responsivos e técnicas modernas de design web.
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>JavaScript do zero ao avançado</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Hashtag Treinamentos. Fev 2025. Atual.
+              </p>
+              <p>
+                Programação estruturada e orientada a objetos, manipulação de arrays, consumo de APIs e aplicações práticas com JS moderno. 
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Python do zero ao avançado</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Hashtag Treinamentos. Out 2024. Atual.
+              </p>
+              <p>
+                Web scraping, automação de tarefas com bibliotecas como pandas, openpyxl, pyautogui, além de organização de projetos com boas práticas. 
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Full Stack</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Hashtag Treinamentos. Mar 2025. Atual.
+              </p>
+              <p>
+                Aprendizado completo com foco em desenvolvimento full stack: HTML, CSS, JavaScript, React, Node.js, Tailwind, Express e integração com APIs REST.  
+              </p>
+            </div>
+          </div>
+
+          <div class="accordion__item">
+            <button class="accordion__header end">
+              <span>Bootcamp Front-end</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion__body end">
+              <p>
+                Digital Innovation One. Ago 2025. 
+              </p>
+              <p>
+                Aprendizado completo com foco em desenvolvimento full stack: HTML, CSS, JavaScript, React, Node.js, Tailwind, Express e integração com APIs REST.  
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Seção contato -->
+    <section id="contato" class="contact">
+      <h2>Contate-me</h2>
+      <p>
+        Estou disponível para serviços e novas conexões. Contate-me via e-mail e
+        conecte-se comigo através das minhas redes sociais.
+      </p>
+      <ul class="menu menu--social">
+        <li>
+          <a
+            class="menu__link"
+            href="https://github.com/LuizSilvaCarvalho"
+            target="_blank"
+          >
+            <i class="menu__icon bi bi-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            class="menu__link"
+            href="https://www.linkedin.com/in/luiz-fernando-silva-carvalho/"
+            target="_blank"
+          >
+            <i class="menu__icon bi bi-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a class="menu__link" href="https://www.instagram.com/luizf.silvacarvalho/" target="_blank">
+            <i class="menu__icon bi bi-instagram"></i>
+            <span>Instagram</span>
+          </a>
+        </li>
+      </ul>
+      <a href="mailto:luizfernandosilva5@hotmail.com">
+        <button class="btn btn--primary">
+          <span class="email">luizfernandosilva5@hotmail.com</span>
+        </button>
+      </a>
+    </section>
+
+    <!-- Seção footer -->
+    <footer>
+      <p>
+        © 2025. Portifólio de
+        <a href="https://github.com/LuizSilvaCarvalho" target="_blank"
+          >Luiz Silva Carvalho</a
+        >.
+      </p>
+    </footer>
+
+    <script src="assets/js/scripts.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer/build/spline-viewer.js"
+    ></script>
+  </body>
+</html>

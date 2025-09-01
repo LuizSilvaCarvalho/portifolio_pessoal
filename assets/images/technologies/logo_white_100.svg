@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-label="White shield logo with transparent background">
+  <!-- Transparent background by default -->
+  <!-- Outer shield -->
+  <path d="M63 40 L449 40 L410 396 L256 472 L102 396 Z" fill="white"/>
+  <!-- Inner darker panel (kept transparent since user wants white logo) - omitted -->
+  <!-- Stylized '3' shape (simplified) -->
+  <path d="M150 140 L362 140 L362 192 L232 280 L362 280 L350 364 L210 420 L210 364 L322 332 L322 300 L172 300 Z" fill="white"/>
+</svg>
